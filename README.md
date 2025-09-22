@@ -67,4 +67,4 @@ This is a TypeScript + HTML project that fetches data about people from an exter
 [Mockaroo API](https://my.api.mockaroo.com/people.json?key=74a64e00)
 
 ##  Output Link
-This is the link to the output results:
+This is the link to the output results: https://tanjasav.github.io/M3G10-Loops_and_Iterators/
