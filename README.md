@@ -1,21 +1,18 @@
-# People Data Viewer
-This is a TypeScript + HTML project that fetches mock data about people from an external API and displays it dynamically on a webpage using DOM manipulation.
+# Random data page
+This is a TypeScript + HTML project that fetches data about people from an external API and displays it dynamically on a webpage using DOM manipulation.
 
 ## Goals of the Assignment
 1. Practice TypeScript Fundamentals
-- Define and use custom types (Person) to ensure type safety.
+- Define and use custom types (Person).
 3. Master DOM Manipulation
 - Use getElementById and createElement to interact with the DOM.
 4. Work with Realistic Data
-- Consume mock data from the Mockaroo API to simulate real-world scenarios.
+- Consume data from the Mockaroo API.
 - Parse and format dates, booleans, and strings for display.
 5. Improve Data Presentation
 - Display summaries (e.g., total number of children).
 - Format and label data for readability (e.g., converting can_program to "Yes"/"No").
-6. Understand Project Structure
-- Organize files into a clean structure with index.html, main.ts, and main.js.
-- Use tsconfig.json and package.json to configure and manage the project.
-7. Build a Foundation for Future Features
+6. Build a Foundation for Future Features
 - Prepare for enhancements like filtering, sorting, and exporting data.
 
 
@@ -64,7 +61,7 @@ This is a TypeScript + HTML project that fetches mock data about people from an 
 - TypeScript
 - HTML5
 - DOM API
-- Mockaroo (for mock data generation)
+- Mockaroo (for data generation)
 
 ## Fetches data from 
 [Mockaroo API](https://my.api.mockaroo.com/people.json?key=74a64e00)
