@@ -43,6 +43,7 @@ function run() {
                 .join(", ");
             // Displays the summary and total number of children in the total-children element.
             totalChildrenEl.textContent = `${childrenDetails}, so the total ${total}`;
+            console.log(`${childrenDetails}, so the total ${total}`);
             // 2. Displays each person's name and age
             people.forEach(p => {
                 const age = new Date().getFullYear() - p.birthdate.getFullYear();
@@ -51,6 +52,7 @@ function run() {
                 li.textContent = `${p.name}: ${age}`;
                 //Appends each item to the name-age-list element.
                 nameAgeListEl.appendChild(li);
+                console.log(`${p.name}: ${age}`);
             });
             // 3. Displays all properties of each person using for...in
             people.forEach(p => {
@@ -92,6 +94,7 @@ function run() {
                 // Insert the formatted output into the <div> using <pre> for preserved formatting
                 div.innerHTML = `<pre>${output}</pre>`;
                 fullInfoEl.appendChild(div); // Add the <div> to the container in the DOM
+                console.log(output);
             });
         }
         catch (error) {
