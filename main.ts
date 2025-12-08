@@ -48,8 +48,8 @@ async function run(): Promise<void> {
       .join(", ");
 
     // Displays the summary and total number of children in the total-children element.
-    totalChildrenEl.textContent = `${childrenDetails}, so the total ${total}`;
-    console.log(`${childrenDetails}, so the total ${total}`);
+    totalChildrenEl.textContent = `${childrenDetails}, so the total: ${total}`;
+    console.log(`${childrenDetails}, so the total: ${total}`);
 
 
     // 2. Displays each person's name and age
